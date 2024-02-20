@@ -35,9 +35,41 @@ header>div:nth-child(3)>span>a{
 }
 main{
     background-color: #e0af92;
-    width: 450px;
+    margin-top: 20px;
+    padding: 30px;
+}
+img{
+    width: 320px;
+    border: 2px solid #FB8B24;
+
+}
+main>div>span>img:nth-child(2){
+width: 220px;
+}
+main div{
+    margin: auto;
+    padding: 20px;
+    background-color: #304D30;
+    width: fit-content;
 }
 
-main>div{
-    background-color: #14a114;
+footer {
+    padding: 50px;
+    margin-top: 25px;
+    background-color: #3B3486;
+    border: 2px solid #9195F6;
+
+}
+footer>div{
+    width: fit-content;
+    padding: 25px;
+    margin: auto;
+    background-color: #c5100d;
+}
+footer span{
+    margin-left: 40px;
+}
+footer>div>span:first-child{
+    color: #def10e;
+    font-size: 25px;
 }
